@@ -69,12 +69,58 @@ body {
   color: #ffffff;
 }
 
-.main-color-bg {
-  background-color: #0e1189;
-  border-color: #0e156b;
-  color: #ffffff;
+/* Header */
+#header{
+  background:#333;
+  color: #fff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+#header .create{
+  padding-top: 20px;
 }
 
+/* Bredcrumb */
+.breadcrumb{
+  background:#ccc;
+  color:#333;
+}
+
+.breadcrumb a{
+  color:#333;
+}
+
+/* Progress Bars */
+
+.progress-bar{
+background:#333333;
+color: #ffffff;
+}
+
+#main-color-bg{
+  background-color: #0e1189 !important;
+  border-color: #0e156b !important;
+  color: #ffffff !important;
+}
+
+.dash-box{
+  text-align:center;
+}
+
+#login{
+  margin-top:30px;
+}
+
+/* Footer */
+#footer{
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+/* nav color */
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
